@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Datos y resultados generados durante la ejecución
+data/raw/
+data/processed/
+results/
+
+# Configuración local
+.env
+.vscode/*
+!.vscode/settings.json
