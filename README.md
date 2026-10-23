@@ -2,6 +2,7 @@
 
 <p align="center">
   <img src="results/figures/03_precios_por_categoria.png" alt="Precios por categoría" width="47%">
+  </br>
   <img src="results/evaluation/01_reales_vs_predichos.png" alt="Precios reales frente a predichos" width="47%">
 </p>
 
