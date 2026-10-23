@@ -1,0 +1,225 @@
+variable,importancia
+numeric__palabras_nombre,0.1692931679811171
+numeric__longitud_nombre,0.16065933643681013
+categorical__disponibilidad_OutOfStock,0.1275557040323944
+categorical__categoria_principal_Tecnología,0.10688501925573023
+numeric__longitud_descripcion,0.09401829277530804
+categorical__disponibilidad_InStock,0.08096482123726621
+categorical__subcategoria_Portátiles,0.055757006200414315
+categorical__marca_HP,0.05042319070266314
+categorical__subcategoria_Tóneres y cintas,0.015917457656817215
+categorical__categoria_principal_Escolar,0.01512929218147556
+categorical__marca_Pelikan,0.012086405746873127
+categorical__categoria_principal_Libros,0.009834399366234479
+categorical__subcategoria_Cartuchos y botellas,0.009730805119055509
+categorical__marca_Panamericana Editorial,0.008701361351574063
+categorical__subcategoria_Cofres de seguridad,0.00802120998117976
+categorical__categoria_principal_Oficina,0.007705362237078042
+categorical__marca_EPSON,0.00750321336454634
+categorical__subcategoria_Memorias Usb y discos duros,0.006071542938497326
+categorical__categoria_principal_Arte y Manualidades,0.004615633080602969
+categorical__subcategoria_Libros Infantiles,0.003971769077988628
+categorical__categoria_principal_Juegos y Juguetes,0.0030338358640665066
+categorical__marca_Importado,0.002396527194545204
+categorical__marca_TP-Link,0.0022663403903470363
+categorical__subcategoria_Mouse,0.002097470720527877
+categorical__subcategoria_Adaptadores,0.001892110064383556
+categorical__subcategoria_Otros papeles,0.0016612588804446585
+categorical__subcategoria_Resmas de papel,0.0015850747593727313
+categorical__marca_Icopel,0.001530368278803635
+categorical__subcategoria_Con cable,0.0015026558812024275
+categorical__marca_Scribe,0.0013014228756627875
+categorical__subcategoria_Superación,0.0012923281490081035
+categorical__subcategoria_Cuadernos,0.0012810635397868136
+categorical__subcategoria_Acrílicos,0.0012582034929384779
+categorical__marca_Faber Castell,0.0011351442255284245
+categorical__subcategoria_Base para portátil,0.0011339649428871383
+categorical__subcategoria_Libros juveniles,0.0010024855288569747
+categorical__marca_CANON,0.0009751937031311611
+categorical__marca_Wingo,0.000889261560443432
+categorical__subcategoria_Routers y conectividad,0.0008661325405781089
+categorical__marca_Maxell,0.0007931763412076727
+categorical__marca_Norma,0.0007676624452980499
+categorical__subcategoria_Teclados,0.0007240682450059876
+categorical__marca_Produart,0.0006936261213271528
+categorical__subcategoria_Cartulinas,0.0006891795648572782
+categorical__marca_Logitech,0.0006768308749057134
+categorical__marca_SanDisk,0.0006660415518255538
+categorical__subcategoria_Chinches y alfileres,0.0006184058150660659
+categorical__subcategoria_Acuarelas,0.0006115790878578782
+categorical__subcategoria_Young Adult Literature,0.0005983707948410316
+categorical__subcategoria_Cajas menores,0.0005957921669501881
+categorical__marca_Premium,0.0005123559040474849
+categorical__subcategoria_Colores,0.000416379884169117
+categorical__marca_Debolsillo,0.00038324954078409546
+categorical__categoria_principal_Muebles,0.00037925888886082223
+categorical__marca_Bedata,0.00037593382263470353
+categorical__subcategoria_Reglas y escuadras,0.0003662252210428251
+categorical__marca_Proway,0.00035605672198151607
+categorical__marca_Debate,0.0003440190596354954
+categorical__subcategoria_Plumones,0.0003407004036001196
+categorical__marca_Arte y Pintura,0.00029178114247416166
+categorical__marca_Canson,0.0002779864523614555
+categorical__marca_esenses,0.00026916255162123207
+categorical__subcategoria_Plan Lector,0.00026335035244850867
+categorical__marca_Technosoportes,0.00025600285061654787
+categorical__subcategoria_Blocks artísticos,0.00025570898159825455
+categorical__marca_Panamericana,0.0002519688550048121
+categorical__marca_Tiziano,0.00024613921329940964
+categorical__marca_Armonia,0.00021366704383514297
+categorical__marca_Astone,0.0001932796679999996
+categorical__marca_CopyPac,0.00019142404896263743
+"categorical__subcategoria_Psicología, sociología y pedagogía",0.00016108808298857978
+categorical__marca_Sony,0.00015287287995622138
+categorical__subcategoria_Biografías,0.00015078452662156374
+categorical__subcategoria_Religiones,0.0001463156981611945
+categorical__subcategoria_Literatura Colombiana,0.0001446961253673039
+categorical__subcategoria_Pinceles,0.00012618051025763995
+categorical__subcategoria_Cómics y novela gráfica,0.00012188035165261858
+categorical__marca_Disney Hyperion,0.00011675694250602481
+categorical__subcategoria_Morrales y fundas,0.00011163177259102714
+categorical__marca_Océano,0.00010959639425044039
+categorical__subcategoria_Juegos de mesa,0.00010945498140940762
+categorical__marca_Latinbooks,0.000108174599268616
+categorical__subcategoria_Literatura universal,9.812831594557978e-05
+categorical__subcategoria_Kits para escritorio,7.804709756810914e-05
+categorical__marca_Grijalbo,7.717662907905108e-05
+categorical__marca_Casio,7.618564795607767e-05
+categorical__marca_Kores,6.89676736897485e-05
+categorical__subcategoria_Juegos de azar,6.886211897595748e-05
+categorical__marca_Diana,6.760604289102284e-05
+categorical__subcategoria_Ciencias sociales,5.627243450238026e-05
+categorical__marca_Planeta,4.92249815808285e-05
+categorical__subcategoria_Literatura hispanoamericana,3.59538210562882e-05
+categorical__subcategoria_Pasteles,3.159719302854544e-05
+categorical__marca_Enlace Editorial,2.9560679949991132e-05
+categorical__subcategoria_Salud y nutrición,2.2395397978952726e-05
+categorical__marca_Alfaguara,1.9828350991593575e-05
+categorical__subcategoria_Soportes,1.9666440166735683e-05
+categorical__marca_Ronda,1.5955750534869567e-05
+categorical__subcategoria_Kits y sets de arte,1.571707674171953e-05
+categorical__subcategoria_Diademas,1.216078909015834e-05
+"categorical__subcategoria_Arte, arquitectura y diseño",7.733111180189873e-06
+categorical__subcategoria_Esoterismo,7.465155405013175e-06
+categorical__marca_Debolsillo Clave,7.274410933743497e-06
+categorical__marca_Literatura Random House,6.233386183075407e-06
+categorical__marca_B de Bolsillo,3.3376972772310668e-06
+categorical__marca_Pilot,0.0
+categorical__marca_Prismacolor,0.0
+categorical__marca_Penguin Random House,0.0
+categorical__marca_Planeta Booket,0.0
+categorical__marca_Plaza & Janes INT,0.0
+categorical__marca_Plaza Varios,0.0
+categorical__marca_Press Aplique,0.0
+categorical__marca_Lo que leo,0.0
+categorical__marca_Novelty Ediciones,0.0
+categorical__marca_Gallery Books,0.0
+categorical__marca_Genius,0.0
+categorical__marca_Fundación Secretos para Contar,0.0
+categorical__marca_Imported Furniture,0.0
+categorical__marca_Herder,0.0
+categorical__marca_Harper Collins,0.0
+categorical__marca_Intermedio,0.0
+categorical__marca_Nhitan,0.0
+categorical__marca_Montena,0.0
+categorical__marca_Margaret K. McElderry Books,0.0
+categorical__marca_Paidós,0.0
+categorical__marca_Panini Manga,0.0
+categorical__marca_Papelcard,0.0
+categorical__marca_Penguin Classics,0.0
+categorical__marca_Edimat,0.0
+categorical__marca_Ediciones Americana,0.0
+categorical__marca_Editorial Blanco y Negro,0.0
+categorical__marca_Emecé,0.0
+categorical__marca_Espasa,0.0
+categorical__marca_Fujifilm,0.0
+categorical__marca_Franco Arte,0.0
+categorical__marca_Grupo Editorial Patria,0.0
+categorical__marca_Grijalbo.,0.0
+categorical__marca_Alianza,0.0
+categorical__marca_Bloomsbury,0.0
+categorical__marca_Biblok,0.0
+categorical__marca_Cretacolor,0.0
+categorical__marca_Destino,0.0
+categorical__marca_Diseplast,0.0
+categorical__marca_E4U.,0.0
+categorical__marca_Belkin,0.0
+categorical__marca_Barbie,0.0
+categorical__marca_Art 101,0.0
+categorical__marca_Atenea,0.0
+categorical__marca_Alianza..,0.0
+categorical__marca_Angelito,0.0
+categorical__marca_Ariel,0.0
+categorical__marca_Arkano,0.0
+categorical__marca_ASUS,0.0
+categorical__marca_Infinito,0.0
+categorical__marca_Industrias Botero,0.0
+categorical__marca_KIXIN,0.0
+categorical__marca_Klip Xtreme,0.0
+categorical__marca_Kiut,0.0
+categorical__marca_Lamy,0.0
+categorical__marca_Liquitex,0.0
+categorical__marca_Simon Pulse,0.0
+categorical__marca_SAMSUNG,0.0
+"categorical__subcategoria_Economía, finanzas y contabilidad",0.0
+categorical__subcategoria_Descansapiés,0.0
+categorical__subcategoria_Cuento,0.0
+categorical__subcategoria_Decoración,0.0
+categorical__subcategoria_Cintas adhesivas,0.0
+categorical__subcategoria_Crítica literaria,0.0
+categorical__subcategoria_Científicas,0.0
+categorical__subcategoria_Blocs,0.0
+categorical__subcategoria_Bitácoras y cuadernos de arte,0.0
+categorical__subcategoria_Agropecuarios y zootecnia,0.0
+categorical__subcategoria_Cargadores y baterías,0.0
+categorical__subcategoria_Básicas y de oficina,0.0
+categorical__subcategoria_Bolígrafos,0.0
+categorical__subcategoria_Children Books,0.0
+categorical__subcategoria_Bluetooth,0.0
+categorical__marca_Vergara,0.0
+categorical__marca_Turtle Beach,0.0
+categorical__marca_Toshiba,0.0
+categorical__marca_Tesa,0.0
+categorical__marca_TechBag,0.0
+categorical__marca_Startec,0.0
+categorical__marca_Stylo,0.0
+categorical__marca_Solar,0.0
+categorical__marca_Stabilo,0.0
+categorical__marca_Star Tec,0.0
+categorical__marca_Star,0.0
+categorical__categoria_principal_Hogar,0.0
+categorical__marca_Winsor,0.0
+categorical__categoria_principal_Un Mundo de Regalos,0.0
+categorical__subcategoria_Accesorios,0.0
+categorical__marca_Wacom,0.0
+categorical__subcategoria_Disolventes,0.0
+categorical__subcategoria_Destructoras,0.0
+categorical__subcategoria_Organizadores de llaves,0.0
+categorical__subcategoria_Marcadores especiales,0.0
+categorical__subcategoria_Lápices,0.0
+categorical__subcategoria_Microscopios,0.0
+categorical__subcategoria_Morrales sin ruedas,0.0
+categorical__subcategoria_Interés general,0.0
+categorical__subcategoria_Impresoras y multifuncionales,0.0
+categorical__subcategoria_Historia,0.0
+categorical__subcategoria_Gaming,0.0
+categorical__subcategoria_Fólderes,0.0
+categorical__subcategoria_Ensayo,0.0
+categorical__subcategoria_Elementos de limpieza,0.0
+categorical__subcategoria_Lingüística y lenguas,0.0
+categorical__subcategoria_Películas para cámaras instantáneas,0.0
+categorical__subcategoria_Pegantes,0.0
+categorical__subcategoria_Muñecas,0.0
+categorical__subcategoria_Resaltadores,0.0
+categorical__subcategoria_Portaplanos y carpetas,0.0
+categorical__subcategoria_Plumígrafos,0.0
+categorical__subcategoria_Proyectores,0.0
+categorical__subcategoria_Rollers,0.0
+categorical__subcategoria_Secundaria,0.0
+categorical__subcategoria_Rótulos,0.0
+categorical__subcategoria_Tintas y repuestos,0.0
+categorical__subcategoria_Tableros de acrílico,0.0
+categorical__subcategoria_Sillas fijas,0.0
+categorical__subcategoria_Tijeras,0.0
+categorical__subcategoria_Tablets y tabletas digitalizadoras,0.0
+categorical__subcategoria_Óleo,0.0

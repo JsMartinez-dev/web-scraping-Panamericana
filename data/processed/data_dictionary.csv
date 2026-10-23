@@ -1,0 +1,14 @@
+columna,tipo,descripcion
+url,texto,"URL pública del producto; identificador, no predictor."
+nombre,texto,Nombre publicado del producto.
+marca,categórica,Marca publicada del producto.
+categoria_principal,categórica,Primera categoría del breadcrumb.
+subcategoria,categórica,Última subcategoría del breadcrumb.
+ruta_categoria,texto,Jerarquía completa de categorías.
+sku,texto,Código del producto conservado como texto.
+precio_cop,entero,Variable objetivo: precio en pesos colombianos.
+disponibilidad,categórica,Estado de disponibilidad publicado.
+longitud_descripcion,entero,Cantidad de caracteres de la descripción.
+fecha_extraccion,fecha,Fecha en que se obtuvo el registro.
+longitud_nombre,entero,Cantidad de caracteres del nombre.
+palabras_nombre,entero,Cantidad de palabras del nombre.

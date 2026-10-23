@@ -1,0 +1,56 @@
+{
+  "filas_originales": 388,
+  "filas_finales": 388,
+  "filas_eliminadas": 0,
+  "filas_eliminadas_precio_invalido": 0,
+  "filas_eliminadas_duplicadas": 0,
+  "columnas_finales": [
+    "url",
+    "nombre",
+    "marca",
+    "categoria_principal",
+    "subcategoria",
+    "ruta_categoria",
+    "sku",
+    "precio_cop",
+    "disponibilidad",
+    "longitud_descripcion",
+    "fecha_extraccion",
+    "longitud_nombre",
+    "palabras_nombre"
+  ],
+  "nulos_por_columna": {
+    "url": 0,
+    "nombre": 0,
+    "marca": 0,
+    "categoria_principal": 0,
+    "subcategoria": 0,
+    "ruta_categoria": 0,
+    "sku": 0,
+    "precio_cop": 0,
+    "disponibilidad": 0,
+    "longitud_descripcion": 0,
+    "fecha_extraccion": 0,
+    "longitud_nombre": 0,
+    "palabras_nombre": 0
+  },
+  "urls_unicas": 388,
+  "skus_unicos": 388,
+  "categorias": {
+    "Libros": 146,
+    "Tecnología": 110,
+    "Arte y Manualidades": 57,
+    "Escolar": 33,
+    "Oficina": 25,
+    "Juegos y Juguetes": 9,
+    "Muebles": 5,
+    "Hogar": 2,
+    "Un Mundo de Regalos": 1
+  },
+  "precio_cop": {
+    "minimo": 3600,
+    "mediana": 47650.0,
+    "promedio": 86043.42783505155,
+    "maximo": 4799000
+  }
+}

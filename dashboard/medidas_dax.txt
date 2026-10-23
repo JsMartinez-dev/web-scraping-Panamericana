@@ -1,0 +1,31 @@
+-- Reemplaza Productos por el nombre de la tabla importada.
+
+Total productos =
+DISTINCTCOUNT(Productos[sku])
+
+Precio promedio =
+AVERAGE(Productos[precio_cop])
+
+Precio mediano =
+MEDIAN(Productos[precio_cop])
+
+Precio mínimo =
+MIN(Productos[precio_cop])
+
+Precio máximo =
+MAX(Productos[precio_cop])
+
+Productos disponibles =
+CALCULATE(
+    [Total productos],
+    Productos[disponibilidad] = "InStock"
+)
+
+Precio promedio predicho =
+AVERAGE(Predicciones[precio_predicho])
+
+Error absoluto promedio =
+AVERAGE(Predicciones[error_absoluto])
+
+R2 modelo =
+MAX(ComparacionModelos[r2])

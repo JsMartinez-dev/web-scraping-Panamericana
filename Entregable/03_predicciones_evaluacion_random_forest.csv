@@ -1,0 +1,79 @@
+nombre,marca,categoria_principal,subcategoria,disponibilidad,longitud_descripcion,longitud_nombre,palabras_nombre,precio_real,precio_predicho,error_absoluto,error_firmado,error_porcentual,acierto_modelo
+Audífonos In ear Bluetooth esenses EB-1050 BT negros,esenses,Tecnología,Bluetooth,OutOfStock,664,52,8,47900.0,265881.81605611945,217981.81605611945,-217981.81605611945,-455.07686024242054,False
+Combo teclado + mouse inalámbrico Logitech MK850,Logitech,Tecnología,Teclados,OutOfStock,122,48,7,459900.0,273383.14088463166,186516.85911536837,186516.85911536834,40.55595979894941,False
+"Cartucho de tinta HP 667 negra Original (3YM79AL), 2 ml",HP,Tecnología,Cartuchos y botellas,InStock,136,55,10,50500.0,129225.76357641374,78725.76357641374,-78725.76357641374,-155.89260114141334,False
+Bolígrafo Faber Castell Trilux x 6 unidades,Faber Castell,Escolar,Bolígrafos,InStock,81,43,7,10300.0,40420.06545054318,30120.06545054318,-30120.06545054318,-292.4278199081862,True
+Lienzo con bastidor Langer de 30 x 40 cm,Langer,Arte y Manualidades,Bastidor,InStock,132,40,9,29900.0,54605.06451261431,24705.064512614317,-24705.064512614314,-82.62563382145255,True
+La llamada de Cthulhu y otros relatos extraños,Panamericana Editorial,Libros,Literatura universal,InStock,111,46,8,45000.0,55010.6249084962,10010.624908496196,-10010.624908496196,-22.245833129991546,True
+"Adaptador universal con 2 salidas USB, blanco",Infinito,Tecnología,Cables para audio y video,InStock,175,45,7,49700.0,132053.90356731348,82353.90356731348,-82353.90356731348,-165.70201925012773,False
+"Mesa de dibujo con iluminación led, 80 cm x 60 cm",Stylo,Muebles,Mesas para dibujo,InStock,155,49,11,615900.0,62517.179032332526,553382.8209676675,553382.8209676675,89.84945948492734,False
+Cartulina opalina blanca de 1/8 x 10 unidades,Icopel,Arte y Manualidades,Cartulinas,InStock,129,45,8,10700.0,47291.39045687335,36591.39045687335,-36591.39045687335,-341.9756117464799,True
+"Tóner Samsung MLT-D111L, negro",SAMSUNG,Tecnología,Tóneres y cintas,OutOfStock,110,30,4,412900.0,260752.08594500303,152147.91405499697,152147.91405499697,36.84861081496657,False
+"Muchas vidas, muchos maestros",Vergara,Libros,Esoterismo,InStock,383,29,4,59000.0,63382.4536326156,4382.453632615594,-4382.453632615601,-7.427887512907799,True
+"Botella de tinta Epson T673320-Al Ecotank magenta, 70 ml",EPSON,Tecnología,Cartuchos y botellas,OutOfStock,147,56,9,76900.0,224753.17134911052,147853.17134911055,-147853.17134911052,-192.26680279468206,False
+"Lápiz, sepia-sanguina-creta en blíster x 3 unidades",Cretacolor,Arte y Manualidades,Kits y sets de arte,InStock,133,51,7,30800.0,54404.35484573854,23604.35484573854,-23604.35484573854,-76.63751573291734,True
+"Botella de tinta Epson 664 de 70 ml, color negro",EPSON,Tecnología,Cartuchos y botellas,InStock,149,48,10,45900.0,79188.22072785145,33288.220727851454,-33288.220727851454,-72.52335670555873,True
+"Cartucho Epson T135120-Al, negro, 5 ml",EPSON,Tecnología,Cartuchos y botellas,OutOfStock,116,38,6,48100.0,217037.63982509845,168937.63982509845,-168937.63982509845,-351.2217044180841,False
+Tiza Tiziano pastel x 12 unidades,Tiziano,Arte y Manualidades,Pasteles,InStock,123,33,6,29900.0,56140.66919295448,26240.66919295448,-26240.669192954483,-87.76143542794142,True
+Calculadora científica Casio fx-100MS negra (2.ª edición),Casio,Tecnología,Científicas,InStock,141,57,7,119900.0,97436.33129289676,22463.66870710325,22463.668707103236,18.735336703172006,True
+Barra adhesiva de 40 g. Segunda unidad con 50 % de dto.,Kores,Escolar,Pegantes,InStock,148,55,12,15000.0,43152.12112083258,28152.121120832577,-28152.121120832577,-187.68080747221717,True
+"Funda para portátil HP de 14&quot;, reversible, negro y gris",HP,Tecnología,Morrales y fundas,InStock,158,60,10,59900.0,130884.4261995746,70984.42619957459,-70984.4261995746,-118.504885141193,False
+La vida secreta de la mente,Debate,Libros,"Psicología, sociología y pedagogía",InStock,1000,27,6,69000.0,66175.95286287903,2824.0471371209715,2824.0471371209715,4.09282193785648,True
+Angela Merkel. La física del poder,Intermedio,Libros,Ciencias sociales,InStock,132,34,6,59900.0,57001.62818925639,2898.371810743607,2898.371810743607,4.838684158169628,True
+Mouse óptico inalámbrico HP 200 Mrn azul,HP,Tecnología,Mouse,InStock,152,40,7,54900.0,133854.12208753775,78954.12208753775,-78954.12208753775,-143.8144300319449,False
+AudÍfonos tipo diadema Logitech H111 con micrófono,Logitech,Tecnología,Diademas,InStock,92,50,7,59900.0,105772.46791169,45872.46791169001,-45872.46791168999,-76.58174943520866,True
+"Cartucho de tinta HP 667 tricolor original (3YM78AL), 2 ml",HP,Tecnología,Cartuchos y botellas,InStock,139,58,10,50500.0,118704.59254843964,68204.59254843963,-68204.59254843964,-135.0585991058211,False
+Obras selectas de H. P. Lovecraft,Albor Libros,Libros,Literatura universal,InStock,150,33,6,59000.0,58150.84830949844,849.1516905015596,849.1516905015596,1.4392401533924741,True
+"Cartucho de tinta HP 951 azul Original (CN050AL), 8.5 ml",HP,Tecnología,Cartuchos y botellas,OutOfStock,416,56,10,150900.0,256357.552641572,105457.552641572,-105457.552641572,-69.88572076976276,False
+Tablero mixto corcho y acrílico 40 x 60 cm,Artecma,Muebles,Tableros de acrílico,InStock,141,42,9,85900.0,62803.13686310022,23096.86313689978,23096.86313689978,26.888082813620233,True
+Bloc origami x 50 unidades (15 x 15 cm),Duopapel,Arte y Manualidades,Otros papeles,InStock,141,39,9,14700.0,49123.48417024448,34423.48417024448,-34423.48417024448,-234.1733617023434,True
+Cable HDMI en cobre libre de oxígeno de 1.8 m,Astone,Tecnología,Cables para audio y video,InStock,386,45,10,17300.0,103812.69414519668,86512.69414519667,-86512.69414519668,-500.0733765618305,False
+"La casa de Mickey Mouse. Mi primer maletín de cuentos, actividades y calcomanías",Panamericana Editorial,Libros,Libros Infantiles,InStock,255,80,13,38000.0,181848.35717083944,143848.35717083942,-143848.35717083944,-378.5483083443143,False
+Cuaderno cosido cuadriculado de 100 hojas Kiut (Surtido),Kiut,Escolar,Cuadernos,InStock,151,56,8,17500.0,43863.28140331302,26363.28140331302,-26363.28140331302,-150.64732230464583,True
+Hábitos atómicos,Paidós,Libros,Superación,InStock,122,16,2,79000.0,63859.98550171644,15140.014498283565,15140.014498283563,19.16457531428299,True
+El psicoanalista,Palabra Ediciones,Libros,Thriller y novela negra,InStock,151,16,2,79000.0,58306.17285350184,20693.827146498166,20693.82714649816,26.194717906959696,True
+Directorio del tarot,Panamericana Editorial,Libros,Esoterismo,InStock,71,20,3,19000.0,53361.80378661078,34361.80378661078,-34361.80378661078,-180.85159887689883,True
+Diccionario Larousse escolar plus secundaria,Larousse,Libros,Complementarios,InStock,79,44,5,49000.0,62605.11875067597,13605.118750675969,-13605.118750675967,-27.765548470767282,True
+Aventura en Tierradentro,Lo que leo,Libros,Plan Lector,InStock,390,24,3,41300.0,62761.76581172301,21461.76581172301,-21461.76581172301,-51.965534653082344,True
+La tragedia de Belinda Elsner,Panamericana Editorial,Libros,Literatura Colombiana,InStock,142,29,5,35000.0,49995.18595509546,14995.18595509546,-14995.185955095461,-42.84338844312989,True
+Jaque al psicoanalista,Ediciones B,Libros,Thriller y novela negra,InStock,259,22,3,72000.0,63666.53834631529,8333.46165368471,8333.46165368471,11.57425229678432,True
+Base refrigerante Trust GXT 278 para Gaming,Trust,Tecnología,Base para portátil,OutOfStock,144,43,7,159900.0,243705.39097474024,83805.39097474024,-83805.39097474024,-52.41112631315838,False
+Cipi,Alfaguara,Libros,Plan Lector,InStock,371,4,1,38100.0,62620.37662746728,24520.376627467274,-24520.37662746728,-64.3579439041136,True
+Borrador de nata PZ 20 Pelikan x 10 unidades,Pelikan,Escolar,Borradores,InStock,119,44,9,8500.0,74624.77285110317,66124.77285110317,-66124.77285110317,-777.9385041306256,False
+"Cartucho Canon GI-190 de 135 ml, black",CANON,Tecnología,Cartuchos y botellas,InStock,84,38,7,49000.0,98520.6642541915,49520.66425419151,-49520.664254191506,-101.06258011059491,True
+"Bloc 19.87 1/2 carta, de papel tipo acuarela, x 25 hojas",Alianza..,Arte y Manualidades,Blocks artísticos,InStock,220,56,11,24800.0,65897.9729070471,41097.97290704709,-41097.97290704709,-165.71763268970602,True
+Papel tonos pastel x 200 unidades,Icopel,Arte y Manualidades,Otros papeles,InStock,125,33,6,50400.0,48793.91674771257,1606.0832522874334,1606.0832522874334,3.1866731196179234,True
+"Papel para Plotter Auros, de 61 cm x 50 m",Auros,Arte y Manualidades,Otros papeles,InStock,113,41,10,69900.0,57714.44433198139,12185.555668018613,12185.555668018613,17.43284072677913,True
+Reinventarse: Tu segunda oportunidad. 24a Edición,Plataforma Editorial,Libros,Superación,InStock,999,49,6,79000.0,67931.86671885513,11068.133281144866,11068.133281144866,14.01029529258844,True
+Aru Shah and the Song of Death,Disney Hyperion,Libros,Young Adult Literature,InStock,150,30,7,54000.0,55261.607929784834,1261.6079297848337,-1261.6079297848337,-2.336310981083025,True
+Tamara de Lempicka,Panamericana Editorial,Libros,"Arte, arquitectura y diseño",InStock,68,18,3,59000.0,53053.60998596085,5946.390014039149,5946.390014039149,10.078627142439235,True
+"Cartucho de tinta HP 662XL negra Original (CZ105AL), 6.5 ml",HP,Tecnología,Cartuchos y botellas,InStock,538,59,10,145900.0,124872.83835271987,21027.16164728011,21027.161647280125,14.412036769897277,True
+"Adaptador infinito USB-C a HDMI, blanco",Infinito,Tecnología,Adaptadores,InStock,85,39,6,73900.0,107118.6720208967,33218.6720208967,-33218.6720208967,-44.95084170622016,True
+"Portaplanos color blanco, ajustable de 62.5 cm a 103 cm",Langer,Arte y Manualidades,Portaplanos y carpetas,InStock,114,55,10,49900.0,59044.94197527959,9144.941975279587,-9144.941975279587,-18.326537024608392,True
+"Botella de tinta Epson L200 de 70 ml, cian",EPSON,Tecnología,Cartuchos y botellas,InStock,126,42,9,45900.0,86758.23933983034,40858.23933983034,-40858.23933983034,-89.01577198220117,True
+El diario de Ana Frank,Editorial Blanco y Negro,Libros,Literatura universal,InStock,107,22,5,40000.0,60065.30048959674,20065.30048959674,-20065.30048959674,-50.16325122399184,True
+"Calculadora científica Casio fx-85MS 2, negra",Casio,Tecnología,Científicas,InStock,150,45,6,89900.0,98412.55998955002,8512.55998955002,-8512.55998955002,-9.468921011735283,True
+Tizas pastel suave x 25 unidades,Tiziano,Arte y Manualidades,Pasteles,InStock,77,32,6,49600.0,59338.40896169476,9738.40896169476,-9738.40896169476,-19.63388903567492,True
+Mr. Mercedes,Debolsillo,Libros,Thriller y novela negra,InStock,129,12,2,59000.0,58449.25715507346,550.7428449265426,550.7428449265426,0.9334624490280383,True
+Bloc bitácora tamaño carta x 50 hojas durex,Canson,Arte y Manualidades,Blocks artísticos,InStock,162,43,8,46800.0,54483.18218126008,7683.182181260076,-7683.182181260083,-16.417055942863428,True
+"Cable HDMI a HDMI de cobre, 3 metros",Astone,Tecnología,Cables para audio y video,InStock,99,36,8,22400.0,101352.98283709004,78952.98283709004,-78952.98283709004,-352.46867337986623,False
+Silence,Cosmo Editorial,Libros,Libros juveniles,InStock,230,7,1,79900.0,63090.00522960368,16809.994770396326,16809.99477039632,21.03879195293657,True
+Cable HDMI de 2 metros,Infinito,Tecnología,Cables para audio y video,InStock,138,22,5,22000.0,91643.55629476075,69643.55629476077,-69643.55629476075,-316.5616195216398,False
+Papel térmico para fax x 30 m,Panamericana..,Oficina,Rollos,OutOfStock,110,29,7,33400.0,218347.8218982996,184947.8218982996,-184947.8218982996,-553.7359937074838,False
+Memoria micro-SD de 64 GB + adaptador,Maxell,Tecnología,Memorias Usb y discos duros,InStock,132,37,7,66900.0,99058.44805375034,32158.44805375034,-32158.44805375034,-48.06942907884954,True
+J. M. W. Turner,Panamericana Editorial,Libros,"Arte, arquitectura y diseño",InStock,64,15,4,59000.0,52724.89205912934,6275.107940870657,6275.107940870657,10.635776170967217,True
+"Ventilador personal mini recargable Multitech, blanco",MultiTech,Hogar,Ventiladores,InStock,106,53,6,100000.0,73013.91907097882,26986.080929021176,26986.080929021176,26.986080929021178,True
+Mi libro sobre el auto,Panamericana Editorial,Libros,Libros Infantiles,InStock,321,22,5,21000.0,51273.17245006195,30273.172450061957,-30273.172450061953,-144.15796404791405,True
+Calculadora científica de 10 dígitos Fx-570MS Casio,Casio,Tecnología,Científicas,InStock,276,51,7,119900.0,96296.90675804758,23603.093241952414,23603.093241952418,19.685649075856894,True
+Colores Scribe x 12 unidades Jumbo triangulares,Scribe,Escolar,Colores,InStock,142,47,7,29200.0,36842.51325134783,7642.513251347831,-7642.513251347831,-26.172990586807643,True
+Cursillo de historia sagrada,Intermedio,Libros,Religiones,InStock,87,28,4,20000.0,61099.833553289805,41099.833553289805,-41099.833553289805,-205.499167766449,True
+Cuentos para 4 años. Los mejores cuentos para niños y niñas de 4 años,Latinbooks,Libros,Libros Infantiles,InStock,148,69,14,32000.0,85144.16296651622,53144.16296651622,-53144.16296651622,-166.0755092703632,True
+Disco duro portátil Toshiba Canvio Basics de 4 TB,Toshiba,Tecnología,Memorias Usb y discos duros,OutOfStock,141,49,9,629900.0,266608.6832849051,363291.3167150949,363291.3167150949,57.67444304097394,False
+Cursillo de historia de Colombia,Intermedio,Libros,Historia,InStock,132,32,5,79900.0,56528.29911941751,23371.70088058249,23371.700880582488,29.251190088338536,True
+"Cartucho de Tinta HP 667XL tricolor Original (3YM80AL), 8 ml",HP,Tecnología,Cartuchos y botellas,InStock,142,60,10,106900.0,120832.3654651063,13932.365465106295,-13932.365465106297,-13.033082755010566,True
+Cuaderno arte Bond 1/2 carta de 40 hojas 115 g (surtido),Icopel,Arte y Manualidades,Cuadernos artísticos,InStock,161,56,11,17800.0,49416.01870932674,31616.018709326738,-31616.018709326738,-177.61808263666708,True
+"Calculadora científica Casio FX-82LAPLUS-BK, negra",Casio,Tecnología,Científicas,InStock,182,50,5,89900.0,124644.45935316855,34744.45935316855,-34744.45935316855,-38.647896944570135,True
+"Colombia, mi abuelo y yo",Panamericana Editorial,Libros,Libros Infantiles,InStock,139,24,5,39000.0,46025.94510787728,7025.945107877276,-7025.945107877284,-18.01524386635201,True
+"Bloc acuarela Neve, 20 hojas de 1/8 y 240 g",Icopel,Arte y Manualidades,Blocks artísticos,InStock,120,43,10,37300.0,50463.38343059552,13163.383430595515,-13163.383430595517,-35.29057219998798,True
+Bitácora para arte,Canson,Arte y Manualidades,Bitácoras y cuadernos de arte,InStock,73,18,3,23500.0,61864.67161410718,38364.67161410718,-38364.67161410718,-163.25392176215823,True
+Juego de mesa Tío Rico Mc. Pato (pequeño),Ronda,Juegos y Juguetes,Juegos de mesa,InStock,150,41,8,42500.0,78758.53227258172,36258.53227258173,-36258.532272581724,-85.31419358254523,True

@@ -1,0 +1,30 @@
+{
+  "mae": 54199.74911115248,
+  "rmse": 98447.04532163512,
+  "r2": 0.2213308051623547,
+  "baseline_mae": 47407.692307692305,
+  "baseline_rmse": 116276.10928193113,
+  "baseline_r2": -0.08624703519894417,
+  "registros_totales": 388,
+  "registros_entrenamiento": 310,
+  "registros_prueba": 78,
+  "modelo": "RandomForestRegressor",
+  "semilla": 42,
+  "hiperparametros": {
+    "n_estimators": 300,
+    "max_depth": 12,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "test_size": 0.2
+  },
+  "variables_predictoras": [
+    "marca",
+    "categoria_principal",
+    "subcategoria",
+    "disponibilidad",
+    "longitud_descripcion",
+    "longitud_nombre",
+    "palabras_nombre"
+  ],
+  "variable_objetivo": "precio_cop"
+}

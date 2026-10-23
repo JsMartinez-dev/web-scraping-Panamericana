@@ -1,0 +1,111 @@
+{
+  "name": "Dashboard Panamericana",
+  "dataColors": [
+    "#0A7BFF",
+    "#D97706",
+    "#0E9F8E",
+    "#E5484D",
+    "#7C5CFA",
+    "#A0522D",
+    "#9AA3B2"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1B2438",
+  "tableAccent": "#0A7BFF",
+  "good": "#0E9F8E",
+  "neutral": "#D97706",
+  "bad": "#E5484D",
+  "minimum": "#D6E8FF",
+  "center": "#3D95FF",
+  "maximum": "#053A7A",
+  "textClasses": {
+    "label": {
+      "fontFace": "Arial",
+      "fontSize": 10,
+      "color": "#5B6B86"
+    },
+    "callout": {
+      "fontFace": "Arial",
+      "fontSize": 28,
+      "color": "#1B2438"
+    },
+    "title": {
+      "fontFace": "Arial",
+      "fontSize": 12,
+      "color": "#1B2438"
+    },
+    "header": {
+      "fontFace": "Arial",
+      "fontSize": 12,
+      "color": "#1B2438"
+    }
+  },
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F0F3F8"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#5B6B86"
+              }
+            },
+            "gridlineShow": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#5B6B86"
+              }
+            },
+            "gridlineColor": {
+              "solid": {
+                "color": "#E4E9F2"
+              }
+            }
+          }
+        ],
+        "legend": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#5B6B86"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

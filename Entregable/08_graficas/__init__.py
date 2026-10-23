@@ -1,0 +1,1 @@
+"""Scripts individuales de visualización."""

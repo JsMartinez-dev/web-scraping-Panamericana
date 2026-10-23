@@ -3,10 +3,8 @@ __pycache__/
 .venv/
 venv/
 
-# Datos y resultados generados durante la ejecución
-data/raw/
-data/processed/
-results/
+# Los datasets y resultados finales son parte de la entrega pública.
+# Se ignoran únicamente artefactos temporales o locales.
 
 # Configuración local
 .env
