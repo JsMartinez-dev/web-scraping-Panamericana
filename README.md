@@ -137,7 +137,7 @@ las decisiones del Random Forest en este conjunto de datos.
   <img src="results/evaluation/04_importancia_variables.png" alt="Importancia de variables" width="47%">
 </p>
 
-## ▶️ Reproducción local
+##  Reproducción local
 
 En Windows, desde la raíz del proyecto:
 
@@ -171,7 +171,7 @@ El dashboard puede construirse con:
 Las tablas preparadas para cargar directamente se encuentran en
 [`results/power_bi/`](results/power_bi/).
 
-## 🏛️ Arquitectura utilizada
+##  Arquitectura utilizada
 
 La organización sigue una arquitectura **por etapas de un pipeline de datos
 (ETL + analítica + ML)**, con separación entre código, datos y artefactos:
@@ -195,13 +195,13 @@ salidas que pueden inspeccionarse sin abrir el código. No es una arquitectura
 de microservicios; para este proyecto offline y analítico, un pipeline
 secuencial por capas evita complejidad innecesaria.
 
-## ⚖️ Alcance y uso responsable
+## Alcance y uso responsable
 
 - La información corresponde a páginas públicas y puede cambiar después de la fecha de extracción.
 - El dataset es un snapshot académico, no una fuente oficial de precios vigentes.
 - El modelo sirve para exploración y apoyo analítico; no reemplaza la verificación del precio publicado.
 - Respeta los términos de uso, frecuencia de solicitudes y disponibilidad del sitio de origen.
 
-## 👤 Autor
+## Autor
 
-**Juan Martínez** · Proyecto académico de análisis de datos y web scraping.
+**Juan Martínez**

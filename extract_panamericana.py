@@ -18,10 +18,10 @@ import requests
 from bs4 import BeautifulSoup
 
 
-DEFAULT_SITEMAP_URL = "https://www.panamericana.com.co/sitemap/product-0.xml"
+DEFAULT_SITEMAP_INDEX_URL = "https://www.panamericana.com.co/sitemap.xml"
 DEFAULT_OUTPUT = Path("data/raw/panamericana_products.csv")
-REQUEST_TIMEOUT = 30
-USER_AGENT = "AcademicWebScraper/1.0"
+REQUEST_TIMEOUT = 10
+USER_AGENT = "SebastianWebScraper/1.0"
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 LOGGER = logging.getLogger(__name__)
@@ -40,7 +40,9 @@ def get_product_urls(session: requests.Session, sitemap_url: str, limit: int) ->
     for location in root.findall("sitemap:url/sitemap:loc", namespace):
         if location.text is None:
             continue
+        
         url = location.text.strip()
+
         parsed = urlparse(url)
         if parsed.scheme not in {"http", "https"}:
             continue
@@ -54,8 +56,48 @@ def get_product_urls(session: requests.Session, sitemap_url: str, limit: int) ->
     return urls
 
 
+def get_product_sitemap_urls(
+    session: requests.Session, sitemap_index_url: str
+) -> list[str]:
+    """Obtiene los sitemaps de productos desde el índice público."""
+    response = session.get(sitemap_index_url, timeout=REQUEST_TIMEOUT)
+    response.raise_for_status()
+
+    root = ElementTree.fromstring(response.content)
+    namespace = {"sitemap": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    return [
+        location.text.strip()
+        for location in root.findall("sitemap:sitemap/sitemap:loc", namespace)
+        if location.text
+        and location.text.strip().startswith(
+            "https://www.panamericana.com.co/sitemap/product-"
+        )
+    ]
+
+
+def get_urls_from_source(
+    session: requests.Session, source_url: str, limit: int
+) -> list[str]:
+    """Obtiene URLs de producto de un sitemap individual o de su índice."""
+    if source_url.endswith("sitemap.xml"):
+        sitemap_urls = get_product_sitemap_urls(session, source_url)
+    else:
+        sitemap_urls = [source_url]
+
+    urls: list[str] = []
+    seen: set[str] = set()
+    for sitemap_url in sitemap_urls:
+        remaining = limit - len(urls)
+        if remaining <= 0:
+            break
+        for url in get_product_urls(session, sitemap_url, remaining):
+            if url not in seen:
+                seen.add(url)
+                urls.append(url)
+    return urls
+
+
 def first_json_ld_product(soup: BeautifulSoup) -> dict[str, Any] | None:
-    """Devuelve el primer bloque JSON-LD cuyo tipo sea Product."""
     for script in soup.select('script[type="application/ld+json"]'):
         if not script.string:
             continue
@@ -87,11 +129,8 @@ def extract_categories(soup: BeautifulSoup) -> dict[str, str | None]:
             "ruta_categoria": None,
         }
 
-    categories = [
-        " ".join(link.stripped_strings)
-        for link in breadcrumb.select("a")
-        if " ".join(link.stripped_strings)
-    ]
+    categories = [" ".join(link.stripped_strings) for link in breadcrumb.select("a") if " ".join(link.stripped_strings)]
+    
     if not categories:
         return {
             "categoria_principal": None,
@@ -106,9 +145,7 @@ def extract_categories(soup: BeautifulSoup) -> dict[str, str | None]:
     }
 
 
-def extract_product(
-    session: requests.Session, url: str, extraction_date: str
-) -> dict[str, Any] | None:
+def extract_product(session: requests.Session, url: str, extraction_date: str) -> dict[str, Any] | None:
     """Extrae los campos disponibles del producto indicado."""
     response = session.get(url, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
@@ -169,7 +206,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--limit", type=int, default=20, help="Máximo de productos.")
     parser.add_argument("--delay", type=float, default=1.0, help="Pausa entre páginas.")
-    parser.add_argument("--sitemap", default=DEFAULT_SITEMAP_URL)
+    parser.add_argument("--sitemap", default=DEFAULT_SITEMAP_INDEX_URL)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     args = parser.parse_args()
 
@@ -183,7 +220,7 @@ def main() -> None:
     extraction_date = date.today().isoformat()
 
     try:
-        urls = get_product_urls(session, args.sitemap, args.limit)
+        urls = get_urls_from_source(session, args.sitemap, args.limit)
     except (requests.RequestException, ElementTree.ParseError) as error:
         LOGGER.error("No se pudo leer el sitemap: %s", error)
         raise SystemExit(1) from error
@@ -197,6 +234,8 @@ def main() -> None:
             record = None
         if record is not None:
             records.append(record)
+            save_csv(records, args.output)
+            LOGGER.info("Checkpoint: %d registros guardados.", len(records))
         if index < len(urls) - 1:
             time.sleep(args.delay)
 
